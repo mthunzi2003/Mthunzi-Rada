@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-top: 25px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+h4 {
+    color: gray;
+}
+
+p:not(.title){
+    margin-top: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* nav bar */
+
+#top {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.nav-bar {
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 920px;
+}
+
+.sign-out {
+    background-color: teal;
+    color: white;
+    padding: 5px 15px;
+    font-size: 20px;
+} 
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+/* main container */
+
+.main-container { 
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin: 0 auto;
+    width: 920px;
+}
+
+/* left (top = user card, bottom = education) */
+
+.left-container {
+    flex: 3;
+}
+
+.card-header {
+    height: 100px;
+    background-color: teal;
+    margin-top: 20px;
+}
+
+.prof_pic {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 100px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    border: 2px solid #999;
+}
+
+.map-marker {
+    height: 24px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
+
+.gear {
+    width: 12px;
+    display: flex;
+    display: inline;
+    color: blue;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.blue {
+    color: blue;
+    text-decoration: underline;
+    margin-left: -10px;
+    font-size: 24px;
+}
+
+/* right (top = connection requests, bottom = your connections) */
+
+.card-body, .education-body {
+    flex-direction: column;
+    border-left: gray;
+    border-bottom: gray;
+    border-right: gray;
+    border-style: solid;
+    border-top: none;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.education-header {
+    background-color: black;
+    color: white;
+    height: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.right-container {
+    flex: 2;
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.request-header, .connections-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    height: 20px;
+    margin-top: 20px;
+    padding: 20px;    
+}
+
+.request-body, .connections-body{
+    border-left: gray;
+    border-right: gray;
+    border-style: solid;
+    border-top: none;
+    margin-left: 20px;
+}
+
+#req1, #req2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-title {
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+
+.photo {
+    width: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+.circle {
+    width: 40px;
+    margin-left: 20px;    
+}  
+
+.large-text{
+    font-size: 35px;
+}
+
+.con-req {
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px; 
+}
+
+.choice {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.your-connections {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.footer {
+    padding: 20px;
+    border-top: 2px solid gray;
+}
